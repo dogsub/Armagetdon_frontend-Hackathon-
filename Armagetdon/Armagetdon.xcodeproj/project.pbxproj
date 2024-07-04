@@ -20,8 +20,8 @@
 		33B6A5182C368DEE0075776A /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B6A5172C368DEE0075776A /* RankingViewController.swift */; };
 		33B6A51B2C368F4C0075776A /* Tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B6A51A2C368F4C0075776A /* Tabbar.swift */; };
 		33B6A5302C36A4610075776A /* MainItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B6A52F2C36A4600075776A /* MainItem.swift */; };
-		33B6A5322C36A4E30075776A /* VolunteerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B6A5312C36A4E30075776A /* VolunteerCell.swift */; };
-		33B6A5342C36A50A0075776A /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B6A5332C36A50A0075776A /* MainCell.swift */; };
+		33B6A5322C36A4E30075776A /* ThumbnailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B6A5312C36A4E30075776A /* ThumbnailCell.swift */; };
+		33B6A5342C36A50A0075776A /* MainPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B6A5332C36A50A0075776A /* MainPostCell.swift */; };
 		33B6A54E2C36AE180075776A /* Pretendard-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33B6A54D2C36AE180075776A /* Pretendard-Black.ttf */; };
 		33B6A5502C36AE220075776A /* Pretendard-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33B6A54F2C36AE220075776A /* Pretendard-Bold.ttf */; };
 		33B6A5522C36AE290075776A /* Pretendard-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33B6A5512C36AE290075776A /* Pretendard-ExtraBold.ttf */; };
@@ -31,6 +31,19 @@
 		33B6A55A2C36AE460075776A /* Pretendard-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33B6A5592C36AE460075776A /* Pretendard-Regular.ttf */; };
 		33B6A55C2C36AE4D0075776A /* Pretendard-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33B6A55B2C36AE4D0075776A /* Pretendard-SemiBold.ttf */; };
 		33B6A55E2C36AE530075776A /* Pretendard-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33B6A55D2C36AE530075776A /* Pretendard-Thin.ttf */; };
+		90EF49282C37315A0040F3FA /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EF49272C37315A0040F3FA /* UIColor+Hex.swift */; };
+		90EF492B2C3731A70040F3FA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EF492A2C3731A70040F3FA /* NetworkManager.swift */; };
+		90EF492D2C3732190040F3FA /* GFAlertLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EF492C2C3732190040F3FA /* GFAlertLevel.swift */; };
+		90EF492F2C37323B0040F3FA /* RewardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EF492E2C37323B0040F3FA /* RewardViewController.swift */; };
+		90EF49312C3732580040F3FA /* RewardExchangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EF49302C3732580040F3FA /* RewardExchangeViewController.swift */; };
+		90EF49332C3732740040F3FA /* RewardDonateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EF49322C3732740040F3FA /* RewardDonateViewController.swift */; };
+		90EF49352C3732960040F3FA /* RewardDonateAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EF49342C3732960040F3FA /* RewardDonateAnimationViewController.swift */; };
+		90EF49372C3732AE0040F3FA /* RewardExchangeAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EF49362C3732AE0040F3FA /* RewardExchangeAnimationViewController.swift */; };
+		90EF493A2C3734700040F3FA /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 90EF49392C3734700040F3FA /* Alamofire */; };
+		90EF493C2C3744070040F3FA /* CustomNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EF493B2C3744070040F3FA /* CustomNavBar.swift */; };
+		90EF493E2C3747E60040F3FA /* CustomNavigationBar2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EF493D2C3747E60040F3FA /* CustomNavigationBar2.swift */; };
+		90EF49402C3747FF0040F3FA /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EF493F2C3747FF0040F3FA /* RegisterViewController.swift */; };
+		90EF49422C374CA10040F3FA /* DetailPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EF49412C374CA10040F3FA /* DetailPostViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,8 +80,8 @@
 		33B6A5172C368DEE0075776A /* RankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
 		33B6A51A2C368F4C0075776A /* Tabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabbar.swift; sourceTree = "<group>"; };
 		33B6A52F2C36A4600075776A /* MainItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainItem.swift; sourceTree = "<group>"; };
-		33B6A5312C36A4E30075776A /* VolunteerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolunteerCell.swift; sourceTree = "<group>"; };
-		33B6A5332C36A50A0075776A /* MainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
+		33B6A5312C36A4E30075776A /* ThumbnailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailCell.swift; sourceTree = "<group>"; };
+		33B6A5332C36A50A0075776A /* MainPostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPostCell.swift; sourceTree = "<group>"; };
 		33B6A54D2C36AE180075776A /* Pretendard-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Black.ttf"; sourceTree = "<group>"; };
 		33B6A54F2C36AE220075776A /* Pretendard-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.ttf"; sourceTree = "<group>"; };
 		33B6A5512C36AE290075776A /* Pretendard-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraBold.ttf"; sourceTree = "<group>"; };
@@ -78,6 +91,18 @@
 		33B6A5592C36AE460075776A /* Pretendard-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.ttf"; sourceTree = "<group>"; };
 		33B6A55B2C36AE4D0075776A /* Pretendard-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.ttf"; sourceTree = "<group>"; };
 		33B6A55D2C36AE530075776A /* Pretendard-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.ttf"; sourceTree = "<group>"; };
+		90EF49272C37315A0040F3FA /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		90EF492A2C3731A70040F3FA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		90EF492C2C3732190040F3FA /* GFAlertLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertLevel.swift; sourceTree = "<group>"; };
+		90EF492E2C37323B0040F3FA /* RewardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardViewController.swift; sourceTree = "<group>"; };
+		90EF49302C3732580040F3FA /* RewardExchangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardExchangeViewController.swift; sourceTree = "<group>"; };
+		90EF49322C3732740040F3FA /* RewardDonateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardDonateViewController.swift; sourceTree = "<group>"; };
+		90EF49342C3732960040F3FA /* RewardDonateAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardDonateAnimationViewController.swift; sourceTree = "<group>"; };
+		90EF49362C3732AE0040F3FA /* RewardExchangeAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardExchangeAnimationViewController.swift; sourceTree = "<group>"; };
+		90EF493B2C3744070040F3FA /* CustomNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBar.swift; sourceTree = "<group>"; };
+		90EF493D2C3747E60040F3FA /* CustomNavigationBar2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomNavigationBar2.swift; path = Armagetdon/Main/CustomNavigationBar2.swift; sourceTree = SOURCE_ROOT; };
+		90EF493F2C3747FF0040F3FA /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegisterViewController.swift; path = Armagetdon/Main/RegisterViewController.swift; sourceTree = SOURCE_ROOT; };
+		90EF49412C374CA10040F3FA /* DetailPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPostViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +111,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33B6A5142C368D6F0075776A /* SnapKit in Frameworks */,
+				90EF493A2C3734700040F3FA /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,7 +160,9 @@
 				33B6A5192C368E090075776A /* TabBar */,
 				33B6A5112C368D400075776A /* My */,
 				33B6A5102C368D1E0075776A /* Ranking */,
+				90EF49262C3731310040F3FA /* Color */,
 				33B6A50F2C368D000075776A /* Main */,
+				90EF49292C3731760040F3FA /* Network */,
 				33B6A4DF2C368AE40075776A /* AppDelegate.swift */,
 				33B6A4E12C368AE40075776A /* SceneDelegate.swift */,
 				33B6A4E82C368AE60075776A /* Assets.xcassets */,
@@ -165,9 +193,11 @@
 			isa = PBXGroup;
 			children = (
 				33B6A4E32C368AE40075776A /* MainViewController.swift */,
+				90EF493B2C3744070040F3FA /* CustomNavBar.swift */,
 				33B6A52F2C36A4600075776A /* MainItem.swift */,
-				33B6A5312C36A4E30075776A /* VolunteerCell.swift */,
-				33B6A5332C36A50A0075776A /* MainCell.swift */,
+				33B6A5312C36A4E30075776A /* ThumbnailCell.swift */,
+				33B6A5332C36A50A0075776A /* MainPostCell.swift */,
+				90EF49412C374CA10040F3FA /* DetailPostViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -184,6 +214,12 @@
 			isa = PBXGroup;
 			children = (
 				33B6A5152C368DC30075776A /* MyViewController.swift */,
+				90EF492C2C3732190040F3FA /* GFAlertLevel.swift */,
+				90EF492E2C37323B0040F3FA /* RewardViewController.swift */,
+				90EF49302C3732580040F3FA /* RewardExchangeViewController.swift */,
+				90EF49322C3732740040F3FA /* RewardDonateViewController.swift */,
+				90EF49342C3732960040F3FA /* RewardDonateAnimationViewController.swift */,
+				90EF49362C3732AE0040F3FA /* RewardExchangeAnimationViewController.swift */,
 			);
 			path = My;
 			sourceTree = "<group>";
@@ -199,6 +235,8 @@
 		33B6A5352C36A6B90075776A /* Register */ = {
 			isa = PBXGroup;
 			children = (
+				90EF493D2C3747E60040F3FA /* CustomNavigationBar2.swift */,
+				90EF493F2C3747FF0040F3FA /* RegisterViewController.swift */,
 			);
 			path = Register;
 			sourceTree = "<group>";
@@ -219,6 +257,22 @@
 			path = Font;
 			sourceTree = "<group>";
 		};
+		90EF49262C3731310040F3FA /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				90EF49272C37315A0040F3FA /* UIColor+Hex.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		90EF49292C3731760040F3FA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				90EF492A2C3731A70040F3FA /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -237,6 +291,7 @@
 			name = Armagetdon;
 			packageProductDependencies = (
 				33B6A5132C368D6F0075776A /* SnapKit */,
+				90EF49392C3734700040F3FA /* Alamofire */,
 			);
 			productName = Armagetdon;
 			productReference = 33B6A4DC2C368AE40075776A /* Armagetdon.app */;
@@ -312,6 +367,7 @@
 			mainGroup = 33B6A4D32C368AE40075776A;
 			packageReferences = (
 				33B6A5122C368D6F0075776A /* XCRemoteSwiftPackageReference "SnapKit" */,
+				90EF49382C3734700040F3FA /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = 33B6A4DD2C368AE40075776A /* Products */;
 			projectDirPath = "";
@@ -366,13 +422,25 @@
 			files = (
 				33B6A5182C368DEE0075776A /* RankingViewController.swift in Sources */,
 				33B6A4E42C368AE40075776A /* MainViewController.swift in Sources */,
-				33B6A5322C36A4E30075776A /* VolunteerCell.swift in Sources */,
+				90EF492D2C3732190040F3FA /* GFAlertLevel.swift in Sources */,
+				90EF49352C3732960040F3FA /* RewardDonateAnimationViewController.swift in Sources */,
+				33B6A5322C36A4E30075776A /* ThumbnailCell.swift in Sources */,
 				33B6A4E02C368AE40075776A /* AppDelegate.swift in Sources */,
+				90EF493E2C3747E60040F3FA /* CustomNavigationBar2.swift in Sources */,
+				90EF492B2C3731A70040F3FA /* NetworkManager.swift in Sources */,
+				90EF49422C374CA10040F3FA /* DetailPostViewController.swift in Sources */,
 				33B6A51B2C368F4C0075776A /* Tabbar.swift in Sources */,
 				33B6A5162C368DC30075776A /* MyViewController.swift in Sources */,
 				33B6A4E22C368AE40075776A /* SceneDelegate.swift in Sources */,
+				90EF49402C3747FF0040F3FA /* RegisterViewController.swift in Sources */,
+				90EF49372C3732AE0040F3FA /* RewardExchangeAnimationViewController.swift in Sources */,
 				33B6A5302C36A4610075776A /* MainItem.swift in Sources */,
-				33B6A5342C36A50A0075776A /* MainCell.swift in Sources */,
+				90EF493C2C3744070040F3FA /* CustomNavBar.swift in Sources */,
+				90EF49312C3732580040F3FA /* RewardExchangeViewController.swift in Sources */,
+				33B6A5342C36A50A0075776A /* MainPostCell.swift in Sources */,
+				90EF492F2C37323B0040F3FA /* RewardViewController.swift in Sources */,
+				90EF49282C37315A0040F3FA /* UIColor+Hex.swift in Sources */,
+				90EF49332C3732740040F3FA /* RewardDonateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -713,6 +781,14 @@
 				minimumVersion = 5.7.1;
 			};
 		};
+		90EF49382C3734700040F3FA /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -720,6 +796,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 33B6A5122C368D6F0075776A /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		90EF49392C3734700040F3FA /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 90EF49382C3734700040F3FA /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
