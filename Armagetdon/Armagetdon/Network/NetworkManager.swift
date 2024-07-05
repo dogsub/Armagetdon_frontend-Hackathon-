@@ -3,7 +3,7 @@ import Alamofire
 class NetworkManager {
     static let shared = NetworkManager()
 
-    private let baseURL = "http://54.180.234.155:8080"
+    private let baseURL = "http://13.125.239.111:8080"
 
     private init() {}
 

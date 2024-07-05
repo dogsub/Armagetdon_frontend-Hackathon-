@@ -39,7 +39,7 @@ class MyViewController: UIViewController {
     func setupUI() {
         // 기존의 UI 설정 코드를 여기에 넣습니다.
         // 앱 아이콘
-        appIcon.image = UIImage(systemName: "circle.fill")
+        appIcon.image = UIImage(named: "logo")
         view.addSubview(appIcon)
         appIcon.snp.makeConstraints { make in
             make.top.equalTo(view.safeAreaLayoutGuide).offset(15)
@@ -245,11 +245,24 @@ class MyViewController: UIViewController {
                         self.rewardPoints = myPage.reward // Set reward points
                         self.rewardLabel.text = "\(myPage.reward)P"
                         self.levelNowLabel.text = "\(myPage.level) 단계"
-                        if myPage.level == "광야" {
-                            self.levelNextLabel.text = "Hi, Naevis. 광야로 온 걸 축하해요"
-                        } else {
-                            self.levelNextLabel.text = "Next Level까지 \(myPage.leftAltitude)km 남았어요"
-                        }
+                        if myPage.level == "대류권" {
+                                                    self.levelBadge.image = UIImage(named: "badge01")
+                                                }
+                                                else if myPage.level == "성층권" {
+                                                    self.levelBadge.image = UIImage(named: "badge02")
+                                                }
+                                                else if myPage.level == "중간권" {
+                                                    self.levelBadge.image = UIImage(named: "badge03")
+                                                }
+                                                else if myPage.level == "열권"  {
+                                                    self.levelBadge.image = UIImage(named: "badge04")
+                                                }
+                                                if myPage.level == "광야" {
+                                                    self.levelBadge.image = UIImage(named: "badge05")
+                                                    self.levelNextLabel.text = "Hi, Naevis. 광야로 온 걸 축하해요"
+                                                } else {
+                                                    self.levelNextLabel.text = "Next Level까지 \(myPage.leftAltitude)km 남았어요"
+                                                }
                     }
                 } else {
                     print("결과 없음")
